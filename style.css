@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f6f0e8;
+  max-width: 1440px;
+}
+
+main {
+  min-height: 900px;
+}
+
+.container {
+  margin: 90px;
+  max-width: 1380px;
+}
+
+.logo {
+  width: 180px;
+  height: 112px;
+  margin-bottom: 180px;
+}
+
+.description__welcome p {
+  font-family: 'DM Serif Text', serif;
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #222222;
+  margin-bottom: 23px;
+}
+
+.description__address p {
+  font-family: 'Manrope', serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #191919;
+  margin-bottom: 24px;
+}
+
+.description__date p {
+  font-family: 'Manrope', serif;
+  font-size: 15px;
+  line-height: 36px;
+  font-weight: 800;
+  letter-spacing: 0.25em;
+  color: #191919;
+  margin-bottom: 39px;
+}
+
+.description__button button {
+  width: 270px;
+  height: 60px;
+  border: 1px solid #bbc0c3;
+  border-radius: 5px;
+}
+
+.description__button button span {
+  font-family: 'Manrope', serif;
+font-size: 16px;
+line-height: 30px;
+font-weight: 600;
+letter-spacing: 0.025em;
+color: #222222;
+}
+
+.images {
+  position: absolute;
+  top: 90px;
+  right: 90px;
+}
+
+.images__main img {
+  width: 630px;
+  height: 720px;
+}
+
+.images__geometry-1 {
+  position: absolute;
+  left: 90px;
+}
+
+.images__floral {
+  position: absolute;
+  bottom: 0;
+  right: 360px;
+  z-index: -1;
+}
+
+.images__geometry-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.images__geometry-21 {
+  position: absolute;
+  bottom: 50px;
+  right: -30px;
+}
+
+
+/* form */
+
+.form-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-page__header {
+  font-family: 'DM Serif Text', serif;
+  font-size: 40px;
+  line-height: 70px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form input {
+  width: 450px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+
+form input ::placeholder {
+  font-family: 'Manrope', serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  color: #666666;
+}
+
+form select {
+  background-color: #fff;
+  width: 482px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+form select option {
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  font-family: 'Manrope', serif;
+  width: 270px;
+  height: 60px;
+  border: 1px solid #bbc0c3;
+  border-radius: 5px;
+  background-color: #f6f0e8;
+  letter-spacing: 0.025em;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* footer */
+
+footer {
+  margin: 35px 90px;
+}
+
+.privacy {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Manrope', serif;
+  font-size: 13px;
+  line-height: 120px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #222222;
+  height: auto;
+}
