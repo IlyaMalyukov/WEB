@@ -12,6 +12,10 @@ main {
   min-height: 900px;
 }
 
+.invisible {
+  display: none;
+}
+
 .container {
   margin: 90px;
   max-width: 1380px;
@@ -69,6 +73,8 @@ letter-spacing: 0.025em;
 color: #222222;
 }
 
+/* images */
+
 .images {
   position: absolute;
   top: 90px;
@@ -79,6 +85,8 @@ color: #222222;
   width: 630px;
   height: 720px;
 }
+
+/* home-first */
 
 .images__geometry-1 {
   position: absolute;
@@ -102,6 +110,93 @@ color: #222222;
   position: absolute;
   bottom: 50px;
   right: -30px;
+}
+
+/* home-second */
+
+.home-second .images__floral {
+  position: absolute;
+  top: -15px;
+  right: 25px;
+  z-index: 1;
+}
+
+.home-second .images__geometry-1 {
+  position: absolute;
+  top: 105px;
+  left: 0;
+}
+
+
+.home-second  .images__geometry-2 {
+  position: absolute;
+  bottom: 0;
+  right: 340px;
+  z-index: -1;
+}
+
+.home-second .images__geometry-21 {
+  position: absolute;
+  bottom: 50px;
+  right: 530px;
+}
+
+/* home-third */
+
+.home-third .images__floral {
+  position: absolute;
+  top: 5px;
+  right: -30px;
+  z-index: 1;
+}
+
+.home-third .images__geometry-1 {
+  position: absolute;
+  top: 350px;
+  left: 560px;
+}
+
+
+.home-third  .images__geometry-2 {
+  position: absolute;
+  bottom: 39px;
+  right: 390px;
+  z-index: -1;
+}
+
+.home-third .images__geometry-21 {
+  position: absolute;
+  bottom: 10px;
+  right: 480px;
+}
+
+/* home-fourth */
+
+.home-fourth .images__floral {
+  position: absolute;
+  bottom: 0;
+  right: 330px;
+  z-index: 1;
+}
+
+.home-fourth .images__geometry-1 {
+  position: absolute;
+  top: 10px;
+  left: 7px;
+}
+
+
+.home-fourth  .images__geometry-2 {
+  position: absolute;
+  bottom: 542px;
+  right: -10px;
+}
+
+.home-fourth .images__geometry-21 {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  z-index: -1;
 }
 
 

@@ -9,10 +9,11 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
-<body>
+<body data-barba="wrapper">
   <div class="container">
 
     <main>
+
       <div class="logo">
         <img src="img/logo_(final)_7.png" alt="">
       </div>
@@ -37,28 +38,106 @@
 
       <!-- images -->
 
-      <div class="images" data-barba="wrapper">
+        <section id="imgs" class="images" data-barba="container">
 
-        <div class="images__geometry-1">
-          <img src="img/home_1/geometric_shapes_1.png">
-        </div>
+          <!--Home First-->
 
-        <div class="images__main">
-          <img src="img/home_1/home_1.png">
-        </div>
+          <div id="homeFirst" class="home-first">
+            <div class="images__geometry-1">
+              <img src="img/home_1/geometric_shapes_1.png">
+            </div>
+    
+            <div class="images__main">
+              <img src="img/home_1/home_1.png">
+            </div>
+    
+            <div class="images__floral">
+              <img src="img/home_1/florals_1.png">
+            </div>
+    
+            <div class="images__geometry-2">
+              <img src="img/home_1/geometric_shapes_2.png">
+            </div>
+    
+            <div class="images__geometry-21">
+              <img src="img/home_1/geometric_shapes_2_1.png">
+            </div>  
+          </div>
 
-        <div class="images__floral">
-          <img src="img/home_1/florals_1.png">
-        </div>
+          <!--Home Second-->
+          
+          <div id="homeSecond" class="home-second invisible">
+            <div class="images__geometry-1">
+              <img src="img/home_2/geometric_shapes_1.png">
+            </div>
+    
+            <div class="images__main">
+              <img src="img/home_2/home_2.png">
+            </div>
+    
+            <div class="images__floral">
+              <img src="img/home_2/florals_1.png">
+            </div>
+    
+            <div class="images__geometry-2">
+              <img src="img/home_2/geometric_shapes_2.png">
+            </div>
+    
+            <div class="images__geometry-21">
+              <img src="img/home_2/geometric_shapes_2_1.png">
+            </div>  
+          </div>
 
-        <div class="images__geometry-2">
-          <img src="img/home_1/geometric_shapes_2.png">
-        </div>
+           <!--Home Third-->
 
-        <div class="images__geometry-21">
-          <img src="img/home_1/geometric_shapes_2_1.png">
-        </div>
-      </div>
+           <div id="homeThird" class="home-third invisible">
+            <div class="images__geometry-1">
+              <img src="img/home_3/geometric_shapes_1.png">
+            </div>
+    
+            <div class="images__main">
+              <img src="img/home_3/home_3.png">
+            </div>
+    
+            <div class="images__floral">
+              <img src="img/home_3/florals_1.png">
+            </div>
+    
+            <div class="images__geometry-2">
+              <img src="img/home_3/geometric_shapes_2.png">
+            </div>
+    
+            <div class="images__geometry-21">
+              <img src="img/home_3/geometric_shapes_2_1.png">
+            </div>  
+          </div>
+
+           <!--Home fourth-->
+
+           <div id="homeFourth" class="home-fourth invisible">
+            <div class="images__geometry-1">
+              <img src="img/home_4/geometric_shapes_1.png">
+            </div>
+    
+            <div class="images__main">
+              <img src="img/home_4/home_4.png">
+            </div>
+    
+            <div class="images__floral">
+              <img src="img/home_4/florals_1.png">
+            </div>
+    
+            <div class="images__geometry-2">
+              <img src="img/home_4/geometric_shapes_2.png">
+            </div>
+    
+            <div class="images__geometry-21">
+              <img src="img/home_4/geometric_shapes_2_1.png">
+            </div>  
+          </div>
+
+        </section>
+
     </main>  
 
     <!-- Form -->
@@ -106,7 +185,13 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
   <script src="https://unpkg.com/@barba/core"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous">
+  </script>
+  <script src="images.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
