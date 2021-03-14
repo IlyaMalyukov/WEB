@@ -191,7 +191,7 @@ main {
 .home-fourth  .images__geometry-2 {
   position: absolute;
   bottom: 542px;
-  right: -10px;
+  left: 504px;
 }
 
 .home-fourth .images__geometry-21 {
@@ -420,12 +420,13 @@ footer p {
   /* Home First Moble */
   .images__geometry-1 {
     left: 44px;
+    bottom: 260px;
     width: 55px;
     height: 50px;
   }
 
   .images__floral {
-    left: 0;
+    right: 113px;
     bottom: 0;
     width: 118px;
     height: 84px;
@@ -455,8 +456,8 @@ footer p {
   .home-second .images__floral {
     width: 56px;
     height: 85px;
-    left: 200px;
-    top: -10px;
+    right: -25px;
+    bottom: 240px;
   }
 
   .home-second .images__geometry-2 {
@@ -477,7 +478,7 @@ footer p {
   /* Home Third Mobile */
   .home-third .images__geometry-1 {
     left: 246px;
-    top: 147px;
+    bottom: 117px;
     width: 44px;
     height: 44px;
   }
@@ -486,7 +487,7 @@ footer p {
     width: 85px;
     height: 74px;
     left: 30px;
-    top: 0;
+    bottom: 240px;
     transform: scale(-1, 1);
   }
 
@@ -508,6 +509,7 @@ footer p {
   /* Home Fourth Mobile*/
   .home-fourth .images__geometry-1 {
     left: 9px;
+    bottom: 244px;
     top: 11px;
     width: 58px;
     height: 54px;
@@ -516,20 +518,20 @@ footer p {
   .home-fourth .images__floral {
     width: 122px;
     height: 101px;
-    left: 0;
+    right: 110px;
     bottom: 0;
   }
 
   .home-fourth .images__geometry-2 {
     left: 222px;
-    top: 21px;
+    bottom: 241px;
     width: 52px;
     height: 47px;
   }
   
   .home-fourth .images__geometry-21 {
     bottom: 20px;
-    left: 189px;
+    right: -44px;
     width: 85px;
     height: 96px;
   }
