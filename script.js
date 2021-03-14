@@ -46,41 +46,41 @@ function animation(){
 
 function moveRight() {
   $(imgR).animate({
-    "margin-left": "+=10px", "margin-top": "+=10px"
+    "margin-left": "+=10px", "margin-bottom": "+=10px"
   }, 1200, "linear");
 
   $(imgL).animate({
-    "margin-right": "+=10px", "margin-top": "+=10px"
+    "margin-right": "+=10px", "margin-bottom": "+=10px"
   }, 1200, "linear");
 };
 
 function moveLeft() {
   $(imgR).animate({
-    "margin-left": "-=10px", "margin-top": "+=10px"
+    "margin-left": "-=10px", "margin-bottom": "+=10px"
   }, 1200, "linear");
 
   $(imgL).animate({
-    "margin-right": "-=10px", "margin-top": "+=10px"
+    "margin-right": "-=10px", "margin-bottom": "+=10px"
   }, 1200, "linear");
 };
 
 function moveTop() {
   $(imgR).animate({
-    "margin-left": "-=10px", "margin-top": "-=10px"
+    "margin-left": "-=10px", "margin-bottom": "-=10px"
   }, 1200, "linear");
 
   $(imgL).animate({
-    "margin-right": "-=10px", "margin-top": "-=10px"
+    "margin-right": "-=10px", "margin-bottom": "-=10px"
   }, 1200, "linear");
 };
 
 function moveHome() {
   $(imgR).animate({
-    "margin-left": "+=10px", "margin-top": "-=10px"
+    "margin-left": "+=10px", "margin-bottom": "-=10px"
   }, 1200, "linear");
 
   $(imgL).animate({
-    "margin-right": "+=10px", "margin-top": "-=10px"
+    "margin-right": "+=10px", "margin-bottom": "-=10px"
   }, 1200, "linear");
 }
 
@@ -91,7 +91,6 @@ function circleRight() {
   setTimeout(moveHome());
 };
 
-/*
 // Barba.JS
 
 barba.init({
@@ -109,5 +108,3 @@ barba.init({
     }
   }]
 });
-
-*/

@@ -12,14 +12,6 @@ main {
   min-height: 900px;
 }
 
-footer {
-  margin-bottom: 0;
-}
-
-footer p {
-  z-index: 100;
-}
-
 .invisible {
   display: none;
 }
@@ -337,7 +329,14 @@ form button {
 /* footer */
 
 footer {
-  margin: 35px 90px;
+  margin: 35px 70px;
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+}
+
+footer p {
+  z-index: 100;
 }
 
 .privacy {
@@ -345,14 +344,26 @@ footer {
   justify-content: space-between;
   font-family: 'Manrope', serif;
   font-size: 13px;
-  line-height: 120px;
+  line-height: 20px;
   font-weight: 400;
   letter-spacing: 0.025em;
   color: #222222;
   height: auto;
 }
 
+  .form-page__images_shapes2M,
+  .form-page__images_shapes3M,
+  .form-page__images_shapes4M,
+  .form-page__images_floralM,
+  .form-page__logo {
+    display: none;
+  }
+
 @media (max-width: 375px) {
+
+  main {
+    min-height: 667px;
+  }
 
   .container {
     margin: 30px;
@@ -406,7 +417,7 @@ footer {
     height: 310px;
   }
 
-  /* Home First */
+  /* Home First Moble */
   .images__geometry-1 {
     left: 44px;
     width: 55px;
@@ -414,8 +425,10 @@ footer {
   }
 
   .images__floral {
-    width: 120px;
-    height: 85px;
+    left: 0;
+    bottom: 0;
+    width: 118px;
+    height: 84px;
   }
 
   .images__geometry-2 {
@@ -431,7 +444,7 @@ footer {
     height: 32px;
   }
 
-  /* Home Second */
+  /* Home Second Mobile*/
   .home-second .images__geometry-1 {
     left: 10px;
     top: 27px;
@@ -461,7 +474,7 @@ footer {
     z-index: 1;
   }
 
-  /* Home Third */
+  /* Home Third Mobile */
   .home-third .images__geometry-1 {
     left: 246px;
     top: 147px;
@@ -492,7 +505,7 @@ footer {
     z-index: 1;
   }
 
-  /* Home Fourth */
+  /* Home Fourth Mobile*/
   .home-fourth .images__geometry-1 {
     left: 9px;
     top: 11px;
@@ -521,6 +534,103 @@ footer {
     height: 96px;
   }
 
+  /* Form Mobile */ 
 
+  form {
+    margin: 0 auto;
+  }
+
+  form input {
+    width: 282px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  form select {
+    width: 317px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  form button {
+    width: 200px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  .form-page {
+    margin-top: 0;
+    margin-top: 105px;
+  }
+
+  .form-page__logo {
+    display: block;
+    width: 75px;
+    height: 46px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    margin-top: 30px;
+
+  }
+
+  .form-page__header {
+    font-size: 26px;
+    line-height: 26px;
+  }
+
+  .form-page__images_shapes1o,
+  .form-page__images_shapes1o2,
+  .form-page__images_shapes2,
+  .form-page__images_shapes3,
+  .form-page__images_shapes4,
+  .form-page__images_shapes5,
+  .form-page__images_floral {
+    display: none;
+  }
+
+  .form-page__images_shapes2M {
+    display: block;
+    width: 48px;
+    height: 21px;
+    position: absolute;
+    left: 279px;
+    bottom: -640px;
+    z-index: 1;
+  }
+
+  .form-page__images_shapes3M {
+    display: block;
+    width: 89px;
+    height: 73px;
+    position: absolute;
+    left: 0;
+    bottom: -690px;
+  }
+
+  .form-page__images_shapes4M {
+    display: block;
+    width: 120px;
+    height: 125px;
+    position: absolute;
+    right: 0;
+    bottom: -690px;
+  }
+
+  .form-page__images_floralM {
+    display: block;
+    width: 55px;
+    height: 65px;
+    position: absolute;
+    left: 24px;
+    bottom: -655px;
+  }
+
+  footer {
+    display: none;
+    margin: 10px 18px;
+  }
 
 }
